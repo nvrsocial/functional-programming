@@ -11,8 +11,8 @@ import java.util.function.Supplier;
 public class LambdaPractice {
 
     public static void main(String[] args) {
-        User example = new User(1, "example", 20, "example@xyz.com", Roles.ADMIN);
-        User exampleTwo = new User(2, "exampleTwo", 21, "exampleTwo@xyz.com", Roles.MODERATOR);
+        User example = new User(1, "example", 20, "example@xyz.com", Roles.ADMIN, true);
+        User exampleTwo = new User(2, "exampleTwo", 21, "exampleTwo@xyz.com", Roles.MODERATOR, false);
 
         List<User> users = new ArrayList<>();
         users.add(example);

@@ -9,12 +9,23 @@ public class User {
     private String email;
     private Roles roles;
 
-    public User(long id, String name, int age, String email, Roles roles) {
+    private boolean active;
+
+    public boolean isActive() {
+        return active;
+    }
+
+    public void setActive(boolean active) {
+        this.active = active;
+    }
+
+    public User(long id, String name, int age, String email, Roles roles, boolean active) {
         this.id = id;
         this.name = name;
         this.age = age;
         this.email = email;
         this.roles = roles;
+        this.active = active;
     }
 
     public Roles getRoles() {

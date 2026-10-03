@@ -4,8 +4,4 @@ Lambda
 
 Stream API
 
----
-
-LocalDateTime
-
-Basic Multithreading
+Optional
